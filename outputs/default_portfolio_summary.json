@@ -1,0 +1,51 @@
+{
+  "stats": {
+    "cost_usd": 237783.10406581676,
+    "nominal_tonnes": 156462.62710396724,
+    "analytic_expected_tonnes": 140890.4338723716,
+    "simulated_mean_tonnes": 140837.3183907907,
+    "p05_tonnes": 116807.1287454969,
+    "worst_5pct_mean_tonnes": 107322.0278122569,
+    "target_success_probability": 0.9927,
+    "success_ci_low": 0.9908319209941793,
+    "success_ci_high": 0.9941896731102297,
+    "expected_shortfall_tonnes": 58.766110916912965,
+    "projects": 31,
+    "countries": 9,
+    "scopes": 3,
+    "effective_projects_spend": 19.85022449494289,
+    "effective_projects_tonnes": 20.666439787273305
+  },
+  "appetite": 50,
+  "budget": 1000000.0,
+  "target": 100000.0,
+  "assumptions": {
+    "factor_variance_shares": {
+      "global": 0.05,
+      "country": 0.15,
+      "scope": 0.05,
+      "project_type": 0.1,
+      "developer": 0.15,
+      "registry": 0.05
+    },
+    "global_spending_caps": {
+      "credit_id": 0.08,
+      "country": 0.35,
+      "scope": 0.6,
+      "developer": 0.15,
+      "registry": 0.7
+    },
+    "within_band_spending_caps": {
+      "credit_id": 0.2,
+      "country": 0.55,
+      "scope": 0.75,
+      "developer": 0.35
+    },
+    "tail_alpha": 0.05,
+    "training_cushion": 0.12,
+    "training_scenarios": 1024,
+    "test_scenarios": 10000,
+    "seed": 20261003
+  },
+  "source_sha256": "de00ad3a0d0d9f7f5b31ddead836584ed89e3d90eb7c5013b0285fda8dacf6f4"
+}
